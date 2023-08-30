@@ -1,0 +1,1 @@
+Template package based on `Poetry init` and my own personal workflow.
