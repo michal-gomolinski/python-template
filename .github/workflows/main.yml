@@ -2,18 +2,10 @@ name: Tests
 
 on:
   push:
-    paths-ignore:
-      - 'docs/**'
-      - '.cirrus.yml'
-      - '.github/workflows/docs.yml'
     branches:
       - master
       - develop
   pull_request:
-    paths-ignore:
-      - 'docs/**'
-      - '.cirrus.yml'
-      - '.github/workflows/docs.yml'
     branches:
       - '**'
 
